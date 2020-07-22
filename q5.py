@@ -1,2 +1,3 @@
-temperature=[10.8,10,"saurav"]
-print(temperature)
+def f1(a,b):
+    return a+b
+print(f1("12",b="20"))      

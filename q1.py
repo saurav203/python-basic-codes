@@ -1,4 +1,3 @@
-x=20
-y=30
-print(x)
-print(y)
+def f1(student):
+    return [i for i in student if not isinstance (i,float)] 
+print(f1([10,20,20.5,30]))    

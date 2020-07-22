@@ -1,2 +1,3 @@
-rainfall=[10.5,50,"saurav",[10.5,50,"saurav"]]
-print(rainfall)
+def f1(*a):
+    return sum(a)/len(a)
+print(f1(10,20,30))    

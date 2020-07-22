@@ -1,5 +1,3 @@
-x=10
-y=10
-z=10
-s=x+y+z
-print(s)
+def f1(student):
+    return sum( float (i)  for i in student  )
+print(f1(["10.5","20.4","30.3"]))    

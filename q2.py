@@ -1,5 +1,3 @@
-x=20
-y=30
-z=40
-print(x,y,z)
-print(type(x),type(y),type(z))
+def f1(student):
+    return [i for i in student if i>0]
+print(f1([-5,3,-1,101]))     
